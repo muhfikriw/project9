@@ -3,7 +3,7 @@ import random
 def sufflestring(k,x):
     text = list(k)
     lis = []
-    for i in range(x):
+    for i in range(x+1):
         random.shuffle(text)
         a = ("".join(text))
         if a not in lis:
