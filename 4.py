@@ -10,4 +10,4 @@ def sufflestring(k,x):
             lis.append(a)
     print(lis)
 
-sufflestring("aikk",30)
+sufflestring("aku",30)
